@@ -22,7 +22,7 @@ const app = express();
 app.use(cors()); // This will allow requests from any origin. You can configure it to allow only specific origins if needed.
 
 //MiddleWare
-app.use(express.json)
+app.use(express.json())
 app.use(clerkMiddleware())
 
 
